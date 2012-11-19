@@ -16,7 +16,13 @@
 		958892F9165AD47100EA7D71 /* libObjectiveSundown.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 958892E0165AD47100EA7D71 /* libObjectiveSundown.a */; };
 		958892FF165AD47100EA7D71 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 958892FD165AD47100EA7D71 /* InfoPlist.strings */; };
 		9588930D165AD57600EA7D71 /* markdown.c in Sources */ = {isa = PBXBuildFile; fileRef = 9588930B165AD57600EA7D71 /* markdown.c */; };
-		95889310165AD60A00EA7D71 /* TestObjectiveSundown.m in Sources */ = {isa = PBXBuildFile; fileRef = 9588930F165AD60A00EA7D71 /* TestObjectiveSundown.m */; };
+		95889310165AD60A00EA7D71 /* ObjectiveSundownTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9588930F165AD60A00EA7D71 /* ObjectiveSundownTest.m */; };
+		95889316165ADE1D00EA7D71 /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 95889314165ADE1D00EA7D71 /* buffer.c */; };
+		95889317165ADE2200EA7D71 /* html.c in Sources */ = {isa = PBXBuildFile; fileRef = 95889311165ADDFC00EA7D71 /* html.c */; };
+		9588931A165AE12F00EA7D71 /* autolink.c in Sources */ = {isa = PBXBuildFile; fileRef = 95889318165AE12F00EA7D71 /* autolink.c */; };
+		9588931E165AE14100EA7D71 /* houdini_href_e.c in Sources */ = {isa = PBXBuildFile; fileRef = 9588931B165AE14100EA7D71 /* houdini_href_e.c */; };
+		9588931F165AE14100EA7D71 /* houdini_html_e.c in Sources */ = {isa = PBXBuildFile; fileRef = 9588931C165AE14100EA7D71 /* houdini_html_e.c */; };
+		95889322165AE15A00EA7D71 /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 95889320165AE15A00EA7D71 /* stack.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +61,18 @@
 		958892FE165AD47100EA7D71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9588930B165AD57600EA7D71 /* markdown.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = markdown.c; path = "sundown-src/src/markdown.c"; sourceTree = "<group>"; };
 		9588930C165AD57600EA7D71 /* markdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = markdown.h; path = "sundown-src/src/markdown.h"; sourceTree = "<group>"; };
-		9588930F165AD60A00EA7D71 /* TestObjectiveSundown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestObjectiveSundown.m; sourceTree = "<group>"; };
+		9588930F165AD60A00EA7D71 /* ObjectiveSundownTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectiveSundownTest.m; sourceTree = "<group>"; };
+		95889311165ADDFC00EA7D71 /* html.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = html.c; path = "sundown-src/html/html.c"; sourceTree = "<group>"; };
+		95889312165ADDFC00EA7D71 /* html.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = html.h; path = "sundown-src/html/html.h"; sourceTree = "<group>"; };
+		95889314165ADE1D00EA7D71 /* buffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = buffer.c; path = "sundown-src/src/buffer.c"; sourceTree = "<group>"; };
+		95889315165ADE1D00EA7D71 /* buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = buffer.h; path = "sundown-src/src/buffer.h"; sourceTree = "<group>"; };
+		95889318165AE12F00EA7D71 /* autolink.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = autolink.c; path = "sundown-src/src/autolink.c"; sourceTree = "<group>"; };
+		95889319165AE12F00EA7D71 /* autolink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = autolink.h; path = "sundown-src/src/autolink.h"; sourceTree = "<group>"; };
+		9588931B165AE14100EA7D71 /* houdini_href_e.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = houdini_href_e.c; path = "sundown-src/html/houdini_href_e.c"; sourceTree = "<group>"; };
+		9588931C165AE14100EA7D71 /* houdini_html_e.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = houdini_html_e.c; path = "sundown-src/html/houdini_html_e.c"; sourceTree = "<group>"; };
+		9588931D165AE14100EA7D71 /* houdini.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = houdini.h; path = "sundown-src/html/houdini.h"; sourceTree = "<group>"; };
+		95889320165AE15A00EA7D71 /* stack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stack.c; path = "sundown-src/src/stack.c"; sourceTree = "<group>"; };
+		95889321165AE15A00EA7D71 /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stack.h; path = "sundown-src/src/stack.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,7 +149,7 @@
 		958892FA165AD47100EA7D71 /* ObjectiveSundownTests */ = {
 			isa = PBXGroup;
 			children = (
-				9588930F165AD60A00EA7D71 /* TestObjectiveSundown.m */,
+				9588930F165AD60A00EA7D71 /* ObjectiveSundownTest.m */,
 				958892FB165AD47100EA7D71 /* Supporting Files */,
 			);
 			path = ObjectiveSundownTests;
@@ -150,8 +167,19 @@
 		9588930E165AD57D00EA7D71 /* Sundown */ = {
 			isa = PBXGroup;
 			children = (
+				95889311165ADDFC00EA7D71 /* html.c */,
+				95889312165ADDFC00EA7D71 /* html.h */,
 				9588930C165AD57600EA7D71 /* markdown.h */,
 				9588930B165AD57600EA7D71 /* markdown.c */,
+				95889314165ADE1D00EA7D71 /* buffer.c */,
+				95889315165ADE1D00EA7D71 /* buffer.h */,
+				95889318165AE12F00EA7D71 /* autolink.c */,
+				95889319165AE12F00EA7D71 /* autolink.h */,
+				9588931B165AE14100EA7D71 /* houdini_href_e.c */,
+				9588931C165AE14100EA7D71 /* houdini_html_e.c */,
+				9588931D165AE14100EA7D71 /* houdini.h */,
+				95889320165AE15A00EA7D71 /* stack.c */,
+				95889321165AE15A00EA7D71 /* stack.h */,
 			);
 			name = Sundown;
 			sourceTree = "<group>";
@@ -256,6 +284,10 @@
 			files = (
 				958892EB165AD47100EA7D71 /* ObjectiveSundown.m in Sources */,
 				9588930D165AD57600EA7D71 /* markdown.c in Sources */,
+				95889316165ADE1D00EA7D71 /* buffer.c in Sources */,
+				95889317165ADE2200EA7D71 /* html.c in Sources */,
+				9588931A165AE12F00EA7D71 /* autolink.c in Sources */,
+				95889322165AE15A00EA7D71 /* stack.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +295,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95889310165AD60A00EA7D71 /* TestObjectiveSundown.m in Sources */,
+				95889310165AD60A00EA7D71 /* ObjectiveSundownTest.m in Sources */,
+				9588931E165AE14100EA7D71 /* houdini_href_e.c in Sources */,
+				9588931F165AE14100EA7D71 /* houdini_html_e.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +341,7 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -327,6 +362,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
