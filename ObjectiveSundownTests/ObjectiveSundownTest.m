@@ -15,6 +15,8 @@
 
 @implementation ObjectiveSundownTest
 
+#pragma mark - Setup / Teardown
+
 - (void)setUp
 {
     [super setUp];
@@ -29,12 +31,36 @@
     [super tearDown];
 }
 
+#pragma mark - Helper Methods
+
+- (NSString *)makeParagraphFromString:(NSString *)input
+{
+    return [NSString stringWithFormat:@"<p>%@</p>\n", input];
+}
+
+- (void)genericSingleLineTest:(NSString *)input
+{
+    NSString *outputHTML = [ObjectiveSundown parseMarkdownString:input];
+    NSString *intendedOutputHTML = [self makeParagraphFromString:input];
+    STAssertEqualObjects(outputHTML, intendedOutputHTML, nil);
+
+}
+
+#pragma mark - Tests
+
 - (void)testParse
 {
-    NSString *inputMarkdown = @"input string";
-    NSString *outputHTML = [ObjectiveSundown parseMarkdownString:inputMarkdown];
-    NSString *intendedOutputHTML = [NSString stringWithFormat:@"<p>%@</p>\n", inputMarkdown];
-    STAssertEqualObjects(outputHTML, intendedOutputHTML, nil);
+    [self genericSingleLineTest:@"intput"];
+}
+
+- (void)testExtendedCharacters
+{
+    [self genericSingleLineTest:@"∫"];
+}
+
+- (void)testEmoji
+{
+    [self genericSingleLineTest:@"💀"];
 }
 
 @end
