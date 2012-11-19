@@ -1,14 +1,18 @@
 //
-//  ObjectiveSundownTests.m
-//  ObjectiveSundownTests
+//  TestObjectiveSundown.m
+//  ObjectiveSundown
 //
 //  Created by Jim Kubicek on 11/19/12.
 //  Copyright (c) 2012 Jim Kubicek. All rights reserved.
 //
 
-#import "ObjectiveSundownTests.h"
+#import <SenTestingKit/SenTestingKit.h>
 
-@implementation ObjectiveSundownTests
+@interface TestObjectiveSundown : SenTestCase
+
+@end
+
+@implementation TestObjectiveSundown
 
 - (void)setUp
 {
@@ -26,7 +30,7 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in ObjectiveSundownTests");
+    STFail(@"Unit tests are not implemented yet in SingTests");
 }
 
 @end

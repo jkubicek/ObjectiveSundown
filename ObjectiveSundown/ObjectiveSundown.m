@@ -10,4 +10,9 @@
 
 @implementation ObjectiveSundown
 
++ (NSString *)parseMarkdownString:(NSString *)markdown
+{
+    return nil;
+}
+
 @end

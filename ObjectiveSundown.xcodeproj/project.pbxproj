@@ -15,7 +15,8 @@
 		958892F6165AD47100EA7D71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958892E3165AD47100EA7D71 /* Foundation.framework */; };
 		958892F9165AD47100EA7D71 /* libObjectiveSundown.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 958892E0165AD47100EA7D71 /* libObjectiveSundown.a */; };
 		958892FF165AD47100EA7D71 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 958892FD165AD47100EA7D71 /* InfoPlist.strings */; };
-		95889302165AD47100EA7D71 /* ObjectiveSundownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95889301165AD47100EA7D71 /* ObjectiveSundownTests.m */; };
+		9588930D165AD57600EA7D71 /* markdown.c in Sources */ = {isa = PBXBuildFile; fileRef = 9588930B165AD57600EA7D71 /* markdown.c */; };
+		95889310165AD60A00EA7D71 /* TestObjectiveSundown.m in Sources */ = {isa = PBXBuildFile; fileRef = 9588930F165AD60A00EA7D71 /* TestObjectiveSundown.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +53,9 @@
 		958892F4165AD47100EA7D71 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		958892FC165AD47100EA7D71 /* ObjectiveSundownTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ObjectiveSundownTests-Info.plist"; sourceTree = "<group>"; };
 		958892FE165AD47100EA7D71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		95889300165AD47100EA7D71 /* ObjectiveSundownTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectiveSundownTests.h; sourceTree = "<group>"; };
-		95889301165AD47100EA7D71 /* ObjectiveSundownTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveSundownTests.m; sourceTree = "<group>"; };
+		9588930B165AD57600EA7D71 /* markdown.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = markdown.c; path = "sundown-src/src/markdown.c"; sourceTree = "<group>"; };
+		9588930C165AD57600EA7D71 /* markdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = markdown.h; path = "sundown-src/src/markdown.h"; sourceTree = "<group>"; };
+		9588930F165AD60A00EA7D71 /* TestObjectiveSundown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestObjectiveSundown.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 			children = (
 				958892E5165AD47100EA7D71 /* ObjectiveSundown */,
 				958892FA165AD47100EA7D71 /* ObjectiveSundownTests */,
+				9588930E165AD57D00EA7D71 /* Sundown */,
 				958892E2165AD47100EA7D71 /* Frameworks */,
 				958892E1165AD47100EA7D71 /* Products */,
 			);
@@ -129,8 +132,7 @@
 		958892FA165AD47100EA7D71 /* ObjectiveSundownTests */ = {
 			isa = PBXGroup;
 			children = (
-				95889300165AD47100EA7D71 /* ObjectiveSundownTests.h */,
-				95889301165AD47100EA7D71 /* ObjectiveSundownTests.m */,
+				9588930F165AD60A00EA7D71 /* TestObjectiveSundown.m */,
 				958892FB165AD47100EA7D71 /* Supporting Files */,
 			);
 			path = ObjectiveSundownTests;
@@ -143,6 +145,15 @@
 				958892FD165AD47100EA7D71 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9588930E165AD57D00EA7D71 /* Sundown */ = {
+			isa = PBXGroup;
+			children = (
+				9588930C165AD57600EA7D71 /* markdown.h */,
+				9588930B165AD57600EA7D71 /* markdown.c */,
+			);
+			name = Sundown;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				958892EB165AD47100EA7D71 /* ObjectiveSundown.m in Sources */,
+				9588930D165AD57600EA7D71 /* markdown.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,7 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95889302165AD47100EA7D71 /* ObjectiveSundownTests.m in Sources */,
+				95889310165AD60A00EA7D71 /* TestObjectiveSundown.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

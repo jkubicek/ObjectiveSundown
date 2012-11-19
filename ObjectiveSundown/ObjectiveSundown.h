@@ -10,4 +10,9 @@
 
 @interface ObjectiveSundown : NSObject
 
+/**
+ * Parses an input markdown string into an output HTML string
+ */
++ (NSString *)parseMarkdownString:(NSString *)markdown;
+
 @end
