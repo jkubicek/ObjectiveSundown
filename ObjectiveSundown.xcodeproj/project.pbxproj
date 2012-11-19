@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		958892E4165AD47100EA7D71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958892E3165AD47100EA7D71 /* Foundation.framework */; };
+		958892E9165AD47100EA7D71 /* ObjectiveSundown.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 958892E8165AD47100EA7D71 /* ObjectiveSundown.h */; };
+		958892EB165AD47100EA7D71 /* ObjectiveSundown.m in Sources */ = {isa = PBXBuildFile; fileRef = 958892EA165AD47100EA7D71 /* ObjectiveSundown.m */; };
+		958892F3165AD47100EA7D71 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958892F2165AD47100EA7D71 /* SenTestingKit.framework */; };
+		958892F5165AD47100EA7D71 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958892F4165AD47100EA7D71 /* UIKit.framework */; };
+		958892F6165AD47100EA7D71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958892E3165AD47100EA7D71 /* Foundation.framework */; };
+		958892F9165AD47100EA7D71 /* libObjectiveSundown.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 958892E0165AD47100EA7D71 /* libObjectiveSundown.a */; };
+		958892FF165AD47100EA7D71 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 958892FD165AD47100EA7D71 /* InfoPlist.strings */; };
+		95889302165AD47100EA7D71 /* ObjectiveSundownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95889301165AD47100EA7D71 /* ObjectiveSundownTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		958892F7165AD47100EA7D71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 958892D7165AD47100EA7D71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 958892DF165AD47100EA7D71;
+			remoteInfo = ObjectiveSundown;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		958892DE165AD47100EA7D71 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				958892E9165AD47100EA7D71 /* ObjectiveSundown.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		958892E0165AD47100EA7D71 /* libObjectiveSundown.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libObjectiveSundown.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		958892E3165AD47100EA7D71 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		958892E7165AD47100EA7D71 /* ObjectiveSundown-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjectiveSundown-Prefix.pch"; sourceTree = "<group>"; };
+		958892E8165AD47100EA7D71 /* ObjectiveSundown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectiveSundown.h; sourceTree = "<group>"; };
+		958892EA165AD47100EA7D71 /* ObjectiveSundown.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveSundown.m; sourceTree = "<group>"; };
+		958892F1165AD47100EA7D71 /* ObjectiveSundownTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectiveSundownTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		958892F2165AD47100EA7D71 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		958892F4165AD47100EA7D71 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		958892FC165AD47100EA7D71 /* ObjectiveSundownTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ObjectiveSundownTests-Info.plist"; sourceTree = "<group>"; };
+		958892FE165AD47100EA7D71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		95889300165AD47100EA7D71 /* ObjectiveSundownTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectiveSundownTests.h; sourceTree = "<group>"; };
+		95889301165AD47100EA7D71 /* ObjectiveSundownTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveSundownTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		958892DD165AD47100EA7D71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				958892E4165AD47100EA7D71 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		958892ED165AD47100EA7D71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				958892F3165AD47100EA7D71 /* SenTestingKit.framework in Frameworks */,
+				958892F5165AD47100EA7D71 /* UIKit.framework in Frameworks */,
+				958892F6165AD47100EA7D71 /* Foundation.framework in Frameworks */,
+				958892F9165AD47100EA7D71 /* libObjectiveSundown.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		958892D5165AD47100EA7D71 = {
+			isa = PBXGroup;
+			children = (
+				958892E5165AD47100EA7D71 /* ObjectiveSundown */,
+				958892FA165AD47100EA7D71 /* ObjectiveSundownTests */,
+				958892E2165AD47100EA7D71 /* Frameworks */,
+				958892E1165AD47100EA7D71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		958892E1165AD47100EA7D71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				958892E0165AD47100EA7D71 /* libObjectiveSundown.a */,
+				958892F1165AD47100EA7D71 /* ObjectiveSundownTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		958892E2165AD47100EA7D71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				958892E3165AD47100EA7D71 /* Foundation.framework */,
+				958892F2165AD47100EA7D71 /* SenTestingKit.framework */,
+				958892F4165AD47100EA7D71 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		958892E5165AD47100EA7D71 /* ObjectiveSundown */ = {
+			isa = PBXGroup;
+			children = (
+				958892E8165AD47100EA7D71 /* ObjectiveSundown.h */,
+				958892EA165AD47100EA7D71 /* ObjectiveSundown.m */,
+				958892E6165AD47100EA7D71 /* Supporting Files */,
+			);
+			path = ObjectiveSundown;
+			sourceTree = "<group>";
+		};
+		958892E6165AD47100EA7D71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				958892E7165AD47100EA7D71 /* ObjectiveSundown-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		958892FA165AD47100EA7D71 /* ObjectiveSundownTests */ = {
+			isa = PBXGroup;
+			children = (
+				95889300165AD47100EA7D71 /* ObjectiveSundownTests.h */,
+				95889301165AD47100EA7D71 /* ObjectiveSundownTests.m */,
+				958892FB165AD47100EA7D71 /* Supporting Files */,
+			);
+			path = ObjectiveSundownTests;
+			sourceTree = "<group>";
+		};
+		958892FB165AD47100EA7D71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				958892FC165AD47100EA7D71 /* ObjectiveSundownTests-Info.plist */,
+				958892FD165AD47100EA7D71 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		958892DF165AD47100EA7D71 /* ObjectiveSundown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95889305165AD47100EA7D71 /* Build configuration list for PBXNativeTarget "ObjectiveSundown" */;
+			buildPhases = (
+				958892DC165AD47100EA7D71 /* Sources */,
+				958892DD165AD47100EA7D71 /* Frameworks */,
+				958892DE165AD47100EA7D71 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjectiveSundown;
+			productName = ObjectiveSundown;
+			productReference = 958892E0165AD47100EA7D71 /* libObjectiveSundown.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		958892F0165AD47100EA7D71 /* ObjectiveSundownTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95889308165AD47100EA7D71 /* Build configuration list for PBXNativeTarget "ObjectiveSundownTests" */;
+			buildPhases = (
+				958892EC165AD47100EA7D71 /* Sources */,
+				958892ED165AD47100EA7D71 /* Frameworks */,
+				958892EE165AD47100EA7D71 /* Resources */,
+				958892EF165AD47100EA7D71 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				958892F8165AD47100EA7D71 /* PBXTargetDependency */,
+			);
+			name = ObjectiveSundownTests;
+			productName = ObjectiveSundownTests;
+			productReference = 958892F1165AD47100EA7D71 /* ObjectiveSundownTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		958892D7165AD47100EA7D71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Jim Kubicek";
+			};
+			buildConfigurationList = 958892DA165AD47100EA7D71 /* Build configuration list for PBXProject "ObjectiveSundown" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 958892D5165AD47100EA7D71;
+			productRefGroup = 958892E1165AD47100EA7D71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				958892DF165AD47100EA7D71 /* ObjectiveSundown */,
+				958892F0165AD47100EA7D71 /* ObjectiveSundownTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		958892EE165AD47100EA7D71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				958892FF165AD47100EA7D71 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		958892EF165AD47100EA7D71 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		958892DC165AD47100EA7D71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				958892EB165AD47100EA7D71 /* ObjectiveSundown.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		958892EC165AD47100EA7D71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95889302165AD47100EA7D71 /* ObjectiveSundownTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		958892F8165AD47100EA7D71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 958892DF165AD47100EA7D71 /* ObjectiveSundown */;
+			targetProxy = 958892F7165AD47100EA7D71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		958892FD165AD47100EA7D71 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				958892FE165AD47100EA7D71 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95889303165AD47100EA7D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		95889304165AD47100EA7D71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95889306165AD47100EA7D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ObjectiveSundown.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectiveSundown/ObjectiveSundown-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		95889307165AD47100EA7D71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ObjectiveSundown.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectiveSundown/ObjectiveSundown-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		95889309165AD47100EA7D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectiveSundown/ObjectiveSundown-Prefix.pch";
+				INFOPLIST_FILE = "ObjectiveSundownTests/ObjectiveSundownTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		9588930A165AD47100EA7D71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectiveSundown/ObjectiveSundown-Prefix.pch";
+				INFOPLIST_FILE = "ObjectiveSundownTests/ObjectiveSundownTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		958892DA165AD47100EA7D71 /* Build configuration list for PBXProject "ObjectiveSundown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95889303165AD47100EA7D71 /* Debug */,
+				95889304165AD47100EA7D71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95889305165AD47100EA7D71 /* Build configuration list for PBXNativeTarget "ObjectiveSundown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95889306165AD47100EA7D71 /* Debug */,
+				95889307165AD47100EA7D71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		95889308165AD47100EA7D71 /* Build configuration list for PBXNativeTarget "ObjectiveSundownTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95889309165AD47100EA7D71 /* Debug */,
+				9588930A165AD47100EA7D71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 958892D7165AD47100EA7D71 /* Project object */;
+}
