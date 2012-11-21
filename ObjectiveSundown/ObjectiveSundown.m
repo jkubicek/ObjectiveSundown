@@ -34,7 +34,7 @@
 	ob = bufnew(OUTPUT_UNIT);
 
 	sdhtml_renderer(&callbacks, &options, 0);
-	markdown = sd_markdown_new(0, 16, &callbacks, &options);
+	markdown = sd_markdown_new(MKDEXT_AUTOLINK, 16, &callbacks, &options);
 
     const char *document = [markdownString UTF8String];
     size_t doc_size = strlen(document);
@@ -42,7 +42,7 @@
 	sd_markdown_render(ob, (const uint8_t *)document, doc_size, markdown);
 	sd_markdown_free(markdown);
 
-    char *outputCString = malloc(ob->size + sizeof(char));
+    char *outputCString = calloc(ob->size + 1, sizeof(char));
     memcpy(outputCString, ob->data, ob->size);
 	NSString *outputString = [NSString stringWithCString:outputCString encoding:NSUTF8StringEncoding];
 

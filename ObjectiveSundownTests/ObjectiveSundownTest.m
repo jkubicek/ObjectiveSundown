@@ -63,4 +63,12 @@
     [self genericSingleLineTest:@"💀"];
 }
 
+- (void)testLinks
+{
+    NSString *input = @"http://www.dude.com";
+    NSString *output = [ObjectiveSundown parseMarkdownString:input];
+    NSString *expectedOutput = [NSString stringWithFormat:@"<p><a href=\"%@\">%@</a></p>\n", input, input];
+    STAssertEqualObjects(output, expectedOutput, nil);
+}
+
 @end
