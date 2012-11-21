@@ -23,6 +23,8 @@
 		9588931E165AE14100EA7D71 /* houdini_href_e.c in Sources */ = {isa = PBXBuildFile; fileRef = 9588931B165AE14100EA7D71 /* houdini_href_e.c */; };
 		9588931F165AE14100EA7D71 /* houdini_html_e.c in Sources */ = {isa = PBXBuildFile; fileRef = 9588931C165AE14100EA7D71 /* houdini_html_e.c */; };
 		95889322165AE15A00EA7D71 /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 95889320165AE15A00EA7D71 /* stack.c */; };
+		9588933B165B25EB00EA7D71 /* houdini_href_e.c in Sources */ = {isa = PBXBuildFile; fileRef = 9588931B165AE14100EA7D71 /* houdini_href_e.c */; };
+		9588933D165B25F100EA7D71 /* houdini_html_e.c in Sources */ = {isa = PBXBuildFile; fileRef = 9588931C165AE14100EA7D71 /* houdini_html_e.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -287,6 +289,8 @@
 				95889316165ADE1D00EA7D71 /* buffer.c in Sources */,
 				95889317165ADE2200EA7D71 /* html.c in Sources */,
 				9588931A165AE12F00EA7D71 /* autolink.c in Sources */,
+				9588933B165B25EB00EA7D71 /* houdini_href_e.c in Sources */,
+				9588933D165B25F100EA7D71 /* houdini_html_e.c in Sources */,
 				95889322165AE15A00EA7D71 /* stack.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -445,6 +449,7 @@
 				95889307165AD47100EA7D71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		95889308165AD47100EA7D71 /* Build configuration list for PBXNativeTarget "ObjectiveSundownTests" */ = {
 			isa = XCConfigurationList;
@@ -453,6 +458,7 @@
 				9588930A165AD47100EA7D71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
