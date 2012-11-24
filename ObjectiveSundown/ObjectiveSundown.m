@@ -45,6 +45,7 @@
     char *outputCString = calloc(ob->size + 1, sizeof(char));
     memcpy(outputCString, ob->data, ob->size);
 	NSString *outputString = [NSString stringWithCString:outputCString encoding:NSUTF8StringEncoding];
+    free(outputCString);
 
     return outputString;
 }
