@@ -223,7 +223,7 @@
 			name = ObjectiveSundownTests;
 			productName = ObjectiveSundownTests;
 			productReference = 958892F1165AD47100EA7D71 /* ObjectiveSundownTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -231,7 +231,7 @@
 		958892D7165AD47100EA7D71 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "Jim Kubicek";
 			};
 			buildConfigurationList = 958892DA165AD47100EA7D71 /* Build configuration list for PBXProject "ObjectiveSundown" */;
