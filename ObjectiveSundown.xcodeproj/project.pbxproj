@@ -231,7 +231,8 @@
 		958892D7165AD47100EA7D71 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0600;
+				LastTestingUpgradeCheck = 0620;
+				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "Jim Kubicek";
 			};
 			buildConfigurationList = 958892DA165AD47100EA7D71 /* Build configuration list for PBXProject "ObjectiveSundown" */;
