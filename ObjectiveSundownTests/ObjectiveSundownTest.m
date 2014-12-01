@@ -6,10 +6,10 @@
 //  Copyright (c) 2012 Jim Kubicek. All rights reserved.
 //
 
-#import <SenTestingKit/SenTestingKit.h>
+#import <XCTest/XCTest.h>
 #import "ObjectiveSundown.h"
 
-@interface ObjectiveSundownTest : SenTestCase
+@interface ObjectiveSundownTest : XCTestCase
 
 @end
 
@@ -42,7 +42,7 @@
 {
     NSString *outputHTML = [ObjectiveSundown parseMarkdownString:input];
     NSString *intendedOutputHTML = [self makeParagraphFromString:input];
-    STAssertEqualObjects(outputHTML, intendedOutputHTML, nil);
+    XCTAssertEqualObjects(outputHTML, intendedOutputHTML);
 
 }
 
@@ -68,7 +68,7 @@
     NSString *input = @"http://www.dude.com";
     NSString *output = [ObjectiveSundown parseMarkdownString:input];
     NSString *expectedOutput = [NSString stringWithFormat:@"<p><a href=\"%@\">%@</a></p>\n", input, input];
-    STAssertEqualObjects(output, expectedOutput, nil);
+    XCTAssertEqualObjects(output, expectedOutput);
 }
 
 @end

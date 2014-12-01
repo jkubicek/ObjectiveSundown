@@ -7,63 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		958892E4165AD47100EA7D71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958892E3165AD47100EA7D71 /* Foundation.framework */; };
-		958892E9165AD47100EA7D71 /* ObjectiveSundown.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 958892E8165AD47100EA7D71 /* ObjectiveSundown.h */; };
-		958892EB165AD47100EA7D71 /* ObjectiveSundown.m in Sources */ = {isa = PBXBuildFile; fileRef = 958892EA165AD47100EA7D71 /* ObjectiveSundown.m */; };
-		958892F3165AD47100EA7D71 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958892F2165AD47100EA7D71 /* SenTestingKit.framework */; };
-		958892F5165AD47100EA7D71 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958892F4165AD47100EA7D71 /* UIKit.framework */; };
-		958892F6165AD47100EA7D71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958892E3165AD47100EA7D71 /* Foundation.framework */; };
-		958892F9165AD47100EA7D71 /* libObjectiveSundown.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 958892E0165AD47100EA7D71 /* libObjectiveSundown.a */; };
-		958892FF165AD47100EA7D71 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 958892FD165AD47100EA7D71 /* InfoPlist.strings */; };
-		9588930D165AD57600EA7D71 /* markdown.c in Sources */ = {isa = PBXBuildFile; fileRef = 9588930B165AD57600EA7D71 /* markdown.c */; };
-		95889310165AD60A00EA7D71 /* ObjectiveSundownTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9588930F165AD60A00EA7D71 /* ObjectiveSundownTest.m */; };
-		95889316165ADE1D00EA7D71 /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 95889314165ADE1D00EA7D71 /* buffer.c */; };
-		95889317165ADE2200EA7D71 /* html.c in Sources */ = {isa = PBXBuildFile; fileRef = 95889311165ADDFC00EA7D71 /* html.c */; };
-		9588931A165AE12F00EA7D71 /* autolink.c in Sources */ = {isa = PBXBuildFile; fileRef = 95889318165AE12F00EA7D71 /* autolink.c */; };
-		9588931E165AE14100EA7D71 /* houdini_href_e.c in Sources */ = {isa = PBXBuildFile; fileRef = 9588931B165AE14100EA7D71 /* houdini_href_e.c */; };
-		9588931F165AE14100EA7D71 /* houdini_html_e.c in Sources */ = {isa = PBXBuildFile; fileRef = 9588931C165AE14100EA7D71 /* houdini_html_e.c */; };
-		95889322165AE15A00EA7D71 /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 95889320165AE15A00EA7D71 /* stack.c */; };
-		9588933B165B25EB00EA7D71 /* houdini_href_e.c in Sources */ = {isa = PBXBuildFile; fileRef = 9588931B165AE14100EA7D71 /* houdini_href_e.c */; };
-		9588933D165B25F100EA7D71 /* houdini_html_e.c in Sources */ = {isa = PBXBuildFile; fileRef = 9588931C165AE14100EA7D71 /* houdini_html_e.c */; };
+		4D5AF4BC1A2CB70D00799BB8 /* ObjectiveSundown.m in Sources */ = {isa = PBXBuildFile; fileRef = 958892EA165AD47100EA7D71 /* ObjectiveSundown.m */; };
+		4D5AF4BD1A2CB76000799BB8 /* html.c in Sources */ = {isa = PBXBuildFile; fileRef = 95889311165ADDFC00EA7D71 /* html.c */; };
+		4D5AF4BE1A2CB76000799BB8 /* markdown.c in Sources */ = {isa = PBXBuildFile; fileRef = 9588930B165AD57600EA7D71 /* markdown.c */; };
+		4D5AF4BF1A2CB76000799BB8 /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 95889314165ADE1D00EA7D71 /* buffer.c */; };
+		4D5AF4C01A2CB76000799BB8 /* autolink.c in Sources */ = {isa = PBXBuildFile; fileRef = 95889318165AE12F00EA7D71 /* autolink.c */; };
+		4D5AF4C11A2CB76000799BB8 /* houdini_href_e.c in Sources */ = {isa = PBXBuildFile; fileRef = 9588931B165AE14100EA7D71 /* houdini_href_e.c */; };
+		4D5AF4C21A2CB76000799BB8 /* houdini_html_e.c in Sources */ = {isa = PBXBuildFile; fileRef = 9588931C165AE14100EA7D71 /* houdini_html_e.c */; };
+		4D5AF4C31A2CB76000799BB8 /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 95889320165AE15A00EA7D71 /* stack.c */; };
+		4D5AF4C91A2CBA4E00799BB8 /* ObjectiveSundown.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D5AF4C81A2CBA4E00799BB8 /* ObjectiveSundown.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D5AF4CB1A2CBAC700799BB8 /* ObjectiveSundown-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 4D5AF4CA1A2CBAC700799BB8 /* ObjectiveSundown-Prefix.pch */; };
+		4D5AF4D61A2CBBD600799BB8 /* ObjectiveSundown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5AF4A31A2CB6F300799BB8 /* ObjectiveSundown.framework */; };
+		4D5AF4DC1A2CBBE700799BB8 /* ObjectiveSundownTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9588930F165AD60A00EA7D71 /* ObjectiveSundownTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		958892F7165AD47100EA7D71 /* PBXContainerItemProxy */ = {
+		4D5AF4D71A2CBBD600799BB8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 958892D7165AD47100EA7D71 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 958892DF165AD47100EA7D71;
+			remoteGlobalIDString = 4D5AF4A21A2CB6F300799BB8;
 			remoteInfo = ObjectiveSundown;
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		958892DE165AD47100EA7D71 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/${PRODUCT_NAME}";
-			dstSubfolderSpec = 16;
-			files = (
-				958892E9165AD47100EA7D71 /* ObjectiveSundown.h in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		958892E0165AD47100EA7D71 /* libObjectiveSundown.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libObjectiveSundown.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D5AF4A31A2CB6F300799BB8 /* ObjectiveSundown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjectiveSundown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D5AF4A61A2CB6F300799BB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D5AF4C81A2CBA4E00799BB8 /* ObjectiveSundown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectiveSundown.h; sourceTree = "<group>"; };
+		4D5AF4CA1A2CBAC700799BB8 /* ObjectiveSundown-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ObjectiveSundown-Prefix.pch"; sourceTree = "<group>"; };
+		4D5AF4D01A2CBBD600799BB8 /* ObjectiveSundown Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ObjectiveSundown Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D5AF4D31A2CBBD600799BB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		958892E3165AD47100EA7D71 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		958892E7165AD47100EA7D71 /* ObjectiveSundown-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjectiveSundown-Prefix.pch"; sourceTree = "<group>"; };
-		958892E8165AD47100EA7D71 /* ObjectiveSundown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectiveSundown.h; sourceTree = "<group>"; };
+		958892E8165AD47100EA7D71 /* ObjectiveSundown-Umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjectiveSundown-Umbrella.h"; sourceTree = "<group>"; };
 		958892EA165AD47100EA7D71 /* ObjectiveSundown.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveSundown.m; sourceTree = "<group>"; };
-		958892F1165AD47100EA7D71 /* ObjectiveSundownTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectiveSundownTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		958892F2165AD47100EA7D71 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		958892F4165AD47100EA7D71 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		958892FC165AD47100EA7D71 /* ObjectiveSundownTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ObjectiveSundownTests-Info.plist"; sourceTree = "<group>"; };
-		958892FE165AD47100EA7D71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9588930B165AD57600EA7D71 /* markdown.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = markdown.c; path = "sundown-src/src/markdown.c"; sourceTree = "<group>"; };
 		9588930C165AD57600EA7D71 /* markdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = markdown.h; path = "sundown-src/src/markdown.h"; sourceTree = "<group>"; };
-		9588930F165AD60A00EA7D71 /* ObjectiveSundownTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectiveSundownTest.m; sourceTree = "<group>"; };
+		9588930F165AD60A00EA7D71 /* ObjectiveSundownTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ObjectiveSundownTest.m; path = ../ObjectiveSundownTests/ObjectiveSundownTest.m; sourceTree = "<group>"; };
 		95889311165ADDFC00EA7D71 /* html.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = html.c; path = "sundown-src/html/html.c"; sourceTree = "<group>"; };
 		95889312165ADDFC00EA7D71 /* html.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = html.h; path = "sundown-src/html/html.h"; sourceTree = "<group>"; };
 		95889314165ADE1D00EA7D71 /* buffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = buffer.c; path = "sundown-src/src/buffer.c"; sourceTree = "<group>"; };
@@ -78,34 +60,67 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		958892DD165AD47100EA7D71 /* Frameworks */ = {
+		4D5AF49F1A2CB6F300799BB8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				958892E4165AD47100EA7D71 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		958892ED165AD47100EA7D71 /* Frameworks */ = {
+		4D5AF4CD1A2CBBD600799BB8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				958892F3165AD47100EA7D71 /* SenTestingKit.framework in Frameworks */,
-				958892F5165AD47100EA7D71 /* UIKit.framework in Frameworks */,
-				958892F6165AD47100EA7D71 /* Foundation.framework in Frameworks */,
-				958892F9165AD47100EA7D71 /* libObjectiveSundown.a in Frameworks */,
+				4D5AF4D61A2CBBD600799BB8 /* ObjectiveSundown.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D5AF4A41A2CB6F300799BB8 /* ObjectiveSundown */ = {
+			isa = PBXGroup;
+			children = (
+				958892E8165AD47100EA7D71 /* ObjectiveSundown-Umbrella.h */,
+				4D5AF4C81A2CBA4E00799BB8 /* ObjectiveSundown.h */,
+				958892EA165AD47100EA7D71 /* ObjectiveSundown.m */,
+				4D5AF4A51A2CB6F300799BB8 /* Supporting Files */,
+			);
+			path = ObjectiveSundown;
+			sourceTree = "<group>";
+		};
+		4D5AF4A51A2CB6F300799BB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D5AF4CA1A2CBAC700799BB8 /* ObjectiveSundown-Prefix.pch */,
+				4D5AF4A61A2CB6F300799BB8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D5AF4D11A2CBBD600799BB8 /* ObjectiveSundown Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9588930F165AD60A00EA7D71 /* ObjectiveSundownTest.m */,
+				4D5AF4D21A2CBBD600799BB8 /* Supporting Files */,
+			);
+			path = "ObjectiveSundown Tests";
+			sourceTree = "<group>";
+		};
+		4D5AF4D21A2CBBD600799BB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D5AF4D31A2CBBD600799BB8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		958892D5165AD47100EA7D71 = {
 			isa = PBXGroup;
 			children = (
-				958892E5165AD47100EA7D71 /* ObjectiveSundown */,
-				958892FA165AD47100EA7D71 /* ObjectiveSundownTests */,
+				4D5AF4A41A2CB6F300799BB8 /* ObjectiveSundown */,
 				9588930E165AD57D00EA7D71 /* Sundown */,
+				4D5AF4D11A2CBBD600799BB8 /* ObjectiveSundown Tests */,
 				958892E2165AD47100EA7D71 /* Frameworks */,
 				958892E1165AD47100EA7D71 /* Products */,
 			);
@@ -114,8 +129,8 @@
 		958892E1165AD47100EA7D71 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				958892E0165AD47100EA7D71 /* libObjectiveSundown.a */,
-				958892F1165AD47100EA7D71 /* ObjectiveSundownTests.octest */,
+				4D5AF4A31A2CB6F300799BB8 /* ObjectiveSundown.framework */,
+				4D5AF4D01A2CBBD600799BB8 /* ObjectiveSundown Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,42 +143,6 @@
 				958892F4165AD47100EA7D71 /* UIKit.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		958892E5165AD47100EA7D71 /* ObjectiveSundown */ = {
-			isa = PBXGroup;
-			children = (
-				958892E8165AD47100EA7D71 /* ObjectiveSundown.h */,
-				958892EA165AD47100EA7D71 /* ObjectiveSundown.m */,
-				958892E6165AD47100EA7D71 /* Supporting Files */,
-			);
-			path = ObjectiveSundown;
-			sourceTree = "<group>";
-		};
-		958892E6165AD47100EA7D71 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				958892E7165AD47100EA7D71 /* ObjectiveSundown-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		958892FA165AD47100EA7D71 /* ObjectiveSundownTests */ = {
-			isa = PBXGroup;
-			children = (
-				9588930F165AD60A00EA7D71 /* ObjectiveSundownTest.m */,
-				958892FB165AD47100EA7D71 /* Supporting Files */,
-			);
-			path = ObjectiveSundownTests;
-			sourceTree = "<group>";
-		};
-		958892FB165AD47100EA7D71 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				958892FC165AD47100EA7D71 /* ObjectiveSundownTests-Info.plist */,
-				958892FD165AD47100EA7D71 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		9588930E165AD57D00EA7D71 /* Sundown */ = {
@@ -188,14 +167,27 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		4D5AF4A01A2CB6F300799BB8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5AF4CB1A2CBAC700799BB8 /* ObjectiveSundown-Prefix.pch in Headers */,
+				4D5AF4C91A2CBA4E00799BB8 /* ObjectiveSundown.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		958892DF165AD47100EA7D71 /* ObjectiveSundown */ = {
+		4D5AF4A21A2CB6F300799BB8 /* ObjectiveSundown */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 95889305165AD47100EA7D71 /* Build configuration list for PBXNativeTarget "ObjectiveSundown" */;
+			buildConfigurationList = 4D5AF4B61A2CB6F400799BB8 /* Build configuration list for PBXNativeTarget "ObjectiveSundown" */;
 			buildPhases = (
-				958892DC165AD47100EA7D71 /* Sources */,
-				958892DD165AD47100EA7D71 /* Frameworks */,
-				958892DE165AD47100EA7D71 /* CopyFiles */,
+				4D5AF49E1A2CB6F300799BB8 /* Sources */,
+				4D5AF49F1A2CB6F300799BB8 /* Frameworks */,
+				4D5AF4A01A2CB6F300799BB8 /* Headers */,
+				4D5AF4A11A2CB6F300799BB8 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -203,27 +195,26 @@
 			);
 			name = ObjectiveSundown;
 			productName = ObjectiveSundown;
-			productReference = 958892E0165AD47100EA7D71 /* libObjectiveSundown.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 4D5AF4A31A2CB6F300799BB8 /* ObjectiveSundown.framework */;
+			productType = "com.apple.product-type.framework";
 		};
-		958892F0165AD47100EA7D71 /* ObjectiveSundownTests */ = {
+		4D5AF4CF1A2CBBD600799BB8 /* ObjectiveSundown Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 95889308165AD47100EA7D71 /* Build configuration list for PBXNativeTarget "ObjectiveSundownTests" */;
+			buildConfigurationList = 4D5AF4D91A2CBBD600799BB8 /* Build configuration list for PBXNativeTarget "ObjectiveSundown Tests" */;
 			buildPhases = (
-				958892EC165AD47100EA7D71 /* Sources */,
-				958892ED165AD47100EA7D71 /* Frameworks */,
-				958892EE165AD47100EA7D71 /* Resources */,
-				958892EF165AD47100EA7D71 /* ShellScript */,
+				4D5AF4CC1A2CBBD600799BB8 /* Sources */,
+				4D5AF4CD1A2CBBD600799BB8 /* Frameworks */,
+				4D5AF4CE1A2CBBD600799BB8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				958892F8165AD47100EA7D71 /* PBXTargetDependency */,
+				4D5AF4D81A2CBBD600799BB8 /* PBXTargetDependency */,
 			);
-			name = ObjectiveSundownTests;
-			productName = ObjectiveSundownTests;
-			productReference = 958892F1165AD47100EA7D71 /* ObjectiveSundownTests.octest */;
-			productType = "com.apple.product-type.bundle.ocunit-test";
+			name = "ObjectiveSundown Tests";
+			productName = "ObjectiveSundown Tests";
+			productReference = 4D5AF4D01A2CBBD600799BB8 /* ObjectiveSundown Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -234,6 +225,14 @@
 				LastTestingUpgradeCheck = 0620;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "Jim Kubicek";
+				TargetAttributes = {
+					4D5AF4A21A2CB6F300799BB8 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					4D5AF4CF1A2CBBD600799BB8 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
 			};
 			buildConfigurationList = 958892DA165AD47100EA7D71 /* Build configuration list for PBXProject "ObjectiveSundown" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -247,87 +246,204 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				958892DF165AD47100EA7D71 /* ObjectiveSundown */,
-				958892F0165AD47100EA7D71 /* ObjectiveSundownTests */,
+				4D5AF4A21A2CB6F300799BB8 /* ObjectiveSundown */,
+				4D5AF4CF1A2CBBD600799BB8 /* ObjectiveSundown Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		958892EE165AD47100EA7D71 /* Resources */ = {
+		4D5AF4A11A2CB6F300799BB8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				958892FF165AD47100EA7D71 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D5AF4CE1A2CBBD600799BB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		958892EF165AD47100EA7D71 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		958892DC165AD47100EA7D71 /* Sources */ = {
+		4D5AF49E1A2CB6F300799BB8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				958892EB165AD47100EA7D71 /* ObjectiveSundown.m in Sources */,
-				9588930D165AD57600EA7D71 /* markdown.c in Sources */,
-				95889316165ADE1D00EA7D71 /* buffer.c in Sources */,
-				95889317165ADE2200EA7D71 /* html.c in Sources */,
-				9588931A165AE12F00EA7D71 /* autolink.c in Sources */,
-				9588933B165B25EB00EA7D71 /* houdini_href_e.c in Sources */,
-				9588933D165B25F100EA7D71 /* houdini_html_e.c in Sources */,
-				95889322165AE15A00EA7D71 /* stack.c in Sources */,
+				4D5AF4BD1A2CB76000799BB8 /* html.c in Sources */,
+				4D5AF4C21A2CB76000799BB8 /* houdini_html_e.c in Sources */,
+				4D5AF4C01A2CB76000799BB8 /* autolink.c in Sources */,
+				4D5AF4BE1A2CB76000799BB8 /* markdown.c in Sources */,
+				4D5AF4BC1A2CB70D00799BB8 /* ObjectiveSundown.m in Sources */,
+				4D5AF4BF1A2CB76000799BB8 /* buffer.c in Sources */,
+				4D5AF4C31A2CB76000799BB8 /* stack.c in Sources */,
+				4D5AF4C11A2CB76000799BB8 /* houdini_href_e.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		958892EC165AD47100EA7D71 /* Sources */ = {
+		4D5AF4CC1A2CBBD600799BB8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95889310165AD60A00EA7D71 /* ObjectiveSundownTest.m in Sources */,
-				9588931E165AE14100EA7D71 /* houdini_href_e.c in Sources */,
-				9588931F165AE14100EA7D71 /* houdini_html_e.c in Sources */,
+				4D5AF4DC1A2CBBE700799BB8 /* ObjectiveSundownTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		958892F8165AD47100EA7D71 /* PBXTargetDependency */ = {
+		4D5AF4D81A2CBBD600799BB8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 958892DF165AD47100EA7D71 /* ObjectiveSundown */;
-			targetProxy = 958892F7165AD47100EA7D71 /* PBXContainerItemProxy */;
+			target = 4D5AF4A21A2CB6F300799BB8 /* ObjectiveSundown */;
+			targetProxy = 4D5AF4D71A2CBBD600799BB8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		958892FD165AD47100EA7D71 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				958892FE165AD47100EA7D71 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
+		4D5AF4B71A2CB6F400799BB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = ObjectiveSundown/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D5AF4B81A2CB6F400799BB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = ObjectiveSundown/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4D5AF4DA1A2CBBD600799BB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "ObjectiveSundown Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4D5AF4DB1A2CBBD600799BB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "ObjectiveSundown Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		95889303165AD47100EA7D71 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -377,86 +493,31 @@
 			};
 			name = Release;
 		};
-		95889306165AD47100EA7D71 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DSTROOT = /tmp/ObjectiveSundown.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ObjectiveSundown/ObjectiveSundown-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		95889307165AD47100EA7D71 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DSTROOT = /tmp/ObjectiveSundown.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ObjectiveSundown/ObjectiveSundown-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		95889309165AD47100EA7D71 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ObjectiveSundown/ObjectiveSundown-Prefix.pch";
-				INFOPLIST_FILE = "ObjectiveSundownTests/ObjectiveSundownTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		9588930A165AD47100EA7D71 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ObjectiveSundown/ObjectiveSundown-Prefix.pch";
-				INFOPLIST_FILE = "ObjectiveSundownTests/ObjectiveSundownTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4D5AF4B61A2CB6F400799BB8 /* Build configuration list for PBXNativeTarget "ObjectiveSundown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D5AF4B71A2CB6F400799BB8 /* Debug */,
+				4D5AF4B81A2CB6F400799BB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D5AF4D91A2CBBD600799BB8 /* Build configuration list for PBXNativeTarget "ObjectiveSundown Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D5AF4DA1A2CBBD600799BB8 /* Debug */,
+				4D5AF4DB1A2CBBD600799BB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		958892DA165AD47100EA7D71 /* Build configuration list for PBXProject "ObjectiveSundown" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				95889303165AD47100EA7D71 /* Debug */,
 				95889304165AD47100EA7D71 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		95889305165AD47100EA7D71 /* Build configuration list for PBXNativeTarget "ObjectiveSundown" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				95889306165AD47100EA7D71 /* Debug */,
-				95889307165AD47100EA7D71 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		95889308165AD47100EA7D71 /* Build configuration list for PBXNativeTarget "ObjectiveSundownTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				95889309165AD47100EA7D71 /* Debug */,
-				9588930A165AD47100EA7D71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
