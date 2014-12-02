@@ -307,6 +307,7 @@
 		4D5AF4B71A2CB6F400799BB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
@@ -347,6 +348,7 @@
 		4D5AF4B81A2CB6F400799BB8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
@@ -512,6 +514,7 @@
 				4D5AF4DB1A2CBBD600799BB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		958892DA165AD47100EA7D71 /* Build configuration list for PBXProject "ObjectiveSundown" */ = {
 			isa = XCConfigurationList;
